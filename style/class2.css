@@ -1,0 +1,21 @@
+/* class 2 */
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+nav li:hover{
+    background-color: aquamarine;
+}
+nav li a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    color: blueviolet;
+    font-size: larger;
+}
+img{
+    width: 500px;
+    height: 400px;
+}

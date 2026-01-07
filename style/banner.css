@@ -1,0 +1,27 @@
+.hero-container{
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+    padding: 25px;
+    gap: 30px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(11, 26, 1, 0.719);
+}
+.hero-container img{
+    width: 400px;
+    height: 200;
+    border-radius: 10px;
+}
+body{
+    max-width: 1270px;
+    background-color: rgb(196, 218, 218);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.hero-container button{
+    background-color: rgb(135, 222, 171);
+    font-size: 1.50em;
+    border-radius: 5px;
+    
+}

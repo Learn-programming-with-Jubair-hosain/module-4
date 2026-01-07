@@ -3,32 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizontal and vertical center using Flex and Margin 0 auto</title>
-    <style>
-        .box-1{
-            height: 800px;
-            display: flex;
-            background-color: blueviolet;
-            justify-content: center;
-            align-items: center;
-            margin: aut;
-            
-        }
-        .box-2{
-            background-color: aqua;
-            font-size: 2em;
-            height: 300px;
-            width: 300px;
-            margin: 0 auto;
-            padding: 20px;
-             }
-             
-                
-    </style>
+    <title>Banner</title>
+    <link rel="stylesheet" href="style/banner.css">
     <link rel="stylesheet" href="style/nav.css">
 </head>
 <body>
-     <header>
+    <header>
         <nav class="blog">
             <ul class="nav">
                 <li><a href="index.html">About</a></li>
@@ -40,8 +20,17 @@
             </ul>
         </nav>
     </header>
-   <div class="box-1">
-     <p class="box-2">Lorem <p>
-   </div>
+    <main>
+        <section class="hero-container">
+            <div>
+                <h1>Welcome to my website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, dolores hic. Eos explicabo magni expedita nemo consequuntur beatae distinctio commodi.</p>
+                <button>Buy Naw</button>
+            </div>
+            <div>
+                <img src="img/pramod-tiwari-E79YsqYvGkY-unsplash.jpg" alt="">
+            </div>
+        </section>
+    </main>
 </body>
 </html>

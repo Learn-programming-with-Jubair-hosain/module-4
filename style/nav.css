@@ -1,0 +1,16 @@
+.blog .nav{
+    display: flex;
+
+}
+.blog .nav li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 2em;
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(12, 29, 182);
+}
+.nav li:hover{
+    background-color: rgb(90, 150, 125);
+}
